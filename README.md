@@ -1,6 +1,6 @@
 # name_match
 
-Fuzzy name matching between `customers` (40 files of ~1M rows) and `entities` (~200k rows).
+Name matching between `customers` (40 files of ~1M rows) and `entities` (~200k rows).
 Output: lastname and firstname distances (Jaccard, weighted Jaccard, TF-IDF cosine) plus the year gap, for candidate pairs. No combination, no decision.
 
 Requires: Python 3, `numpy`, `pandas`, `scipy`.
